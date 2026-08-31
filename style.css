@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #4b0082;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav {
+    max-width: 1000px;
+    margin: auto;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 20px;
+    color: #6c1cbf;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #6c1cbf;
+}
+
+.botao-tema {
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* SEÇÕES */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 90px 25px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #6c1cbf;
+    border-bottom: 2px solid #4b0082;
+    display: inline-block;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio p:first-child {
+    font-size: 16px;
+    color: #666;
+}
+
+.inicio h1 {
+    font-size: 55px;
+    margin: 5px 0;
+    color: #6c1cbf;
+}
+
+.inicio h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #555;
+}
+
+.inicio p {
+    max-width: 550px;
+    margin-bottom: 25px;
+}
+
+.inicio a {
+    display: inline-block;
+    background-color: #4b0082;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.inicio a:hover {
+    background-color: #6c1cbf;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    background-color: #f5f5f5;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+
+/* HABILIDADES */
+
+.habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.habilidade {
+    background-color: #f5f5f5;
+    border: 1px solid #4b0082;
+    padding: 20px;
+    width: 180px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.habilidade:hover {
+    transform: translateY(-3px);
+    border-color: #9b30ff;
+}
+
+.habilidade h3 {
+    margin-bottom: 5px;
+    color: #6c1cbf;
+}
+
+.habilidade p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/* PROJETOS */
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto {
+    background-color: #f5f5f5;
+    border: 1px solid #4b0082;
+    padding: 25px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.projeto h3 {
+    margin-bottom: 10px;
+    color: #6c1cbf;
+}
+
+.projeto p {
+    color: #444;
+}
+
+
+/* CONTACTO */
+
+.contacto {
+    background-color: #f5f5f5;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+.contacto strong {
+    color: #6c1cbf;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f5f5f5;
+    color: #222;
+    font-size: 14px;
+    border-top: 1px solid #4b0082;
+}
+
+
+/* ===== MODO ESCURO ===== */
+
+body.modo-escuro {
+    background-color: #0d0d0d;
+    color: #eaeaea;
+}
+
+body.modo-escuro header {
+    background-color: #000000;
+}
+
+body.modo-escuro nav a {
+    color: #eaeaea;
+}
+
+body.modo-escuro nav a:hover {
+    color: #9b30ff;
+}
+
+body.modo-escuro nav h2 {
+    color: #9b30ff;
+}
+
+body.modo-escuro section h2 {
+    color: #9b30ff;
+}
+
+body.modo-escuro .inicio p:first-child {
+    color: #999;
+}
+
+body.modo-escuro .inicio h1 {
+    color: #9b30ff;
+}
+
+body.modo-escuro .inicio h2 {
+    color: #bbb;
+}
+
+body.modo-escuro .sobre,
+body.modo-escuro .habilidade,
+body.modo-escuro .projeto,
+body.modo-escuro .contacto,
+body.modo-escuro footer {
+    background-color: #141414;
+}
+
+body.modo-escuro .sobre p {
+    color: #ccc;
+}
+
+body.modo-escuro .habilidade h3,
+body.modo-escuro .projeto h3,
+body.modo-escuro .contacto strong {
+    color: #9b30ff;
+}
+
+body.modo-escuro .habilidade p {
+    color: #999;
+}
+
+body.modo-escuro .projeto p {
+    color: #bbb;
+}
+
+body.modo-escuro footer {
+    color: #eaeaea;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .inicio h1 {
+        font-size: 40px;
+    }
+
+    .inicio h2 {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 70px 20px;
+    }
+
+    .habilidade {
+        width: 100%;
+    }
+
+    .projeto {
+        width: 100%;
+    }
+}
