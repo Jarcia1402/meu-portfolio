@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #222;
+    background-color: #121212;
+    color: #e0e0e0;
     line-height: 1.6;
 }
 
@@ -19,8 +19,8 @@ body {
 /* MENU */
 
 header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -38,7 +38,7 @@ nav {
 
 nav h2 {
     font-size: 20px;
-    color: #6b21a8;
+    color: #a855f7;
 }
 
 nav ul {
@@ -49,12 +49,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #e0e0e0;
     font-size: 14px;
 }
 
 nav a:hover {
-    color: #6b21a8;
+    color: #a855f7;
 }
 
 
@@ -69,7 +69,7 @@ section {
 section h2 {
     font-size: 28px;
     margin-bottom: 25px;
-    color: #1a1a1a;
+    color: #a855f7;
 }
 
 
@@ -84,58 +84,59 @@ section h2 {
 
 .inicio p:first-child {
     font-size: 16px;
-    color: #6b21a8;
+    color: #a855f7;
     font-weight: bold;
 }
 
 .inicio h1 {
     font-size: 55px;
     margin: 5px 0;
-    color: #111;
+    color: #ffffff;
 }
 
 .inicio h2 {
     font-size: 22px;
     font-weight: normal;
-    color: #555;
+    color: #bbbbbb;
 }
 
 .inicio p {
     max-width: 550px;
     margin-bottom: 25px;
+    color: #cccccc;
 }
 
 .inicio a {
     display: inline-block;
 
-    background-color: #111;
+    background-color: #a855f7;
     color: white;
 
     padding: 12px 20px;
 
     text-decoration: none;
     border-radius: 5px;
-    border: 2px solid #111;
+    border: 2px solid #a855f7;
 
     transition: 0.3s;
 }
 
 .inicio a:hover {
-    background-color: #6b21a8;
-    border-color: #6b21a8;
+    background-color: #9333ea;
+    border-color: #9333ea;
 }
 
 
 /* SOBRE */
 
 .sobre {
-    background-color: #ffffff;
+    background-color: #121212;
 }
 
 .sobre p {
     max-width: 700px;
     margin-bottom: 15px;
-    color: #555;
+    color: #cccccc;
 }
 
 
@@ -148,9 +149,9 @@ section h2 {
 }
 
 .habilidade {
-    background-color: #ffffff;
-    border: 1px solid #e5e5e5;
-    border-top: 3px solid #6b21a8;
+    background-color: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-top: 3px solid #a855f7;
 
     padding: 20px;
     width: 180px;
@@ -162,16 +163,16 @@ section h2 {
 
 .habilidade:hover {
     transform: translateY(-3px);
-    border-color: #6b21a8;
+    border-color: #a855f7;
 }
 
 .habilidade h3 {
     margin-bottom: 5px;
-    color: #111;
+    color: #a855f7;
 }
 
 .habilidade p {
-    color: #777;
+    color: #999999;
     font-size: 14px;
 }
 
@@ -185,8 +186,8 @@ section h2 {
 }
 
 .projeto {
-    background-color: #ffffff;
-    border: 1px solid #e5e5e5;
+    background-color: #1a1a1a;
+    border: 1px solid #2a2a2a;
 
     padding: 25px;
 
@@ -198,31 +199,32 @@ section h2 {
 }
 
 .projeto:hover {
-    border-color: #6b21a8;
+    border-color: #a855f7;
 }
 
 .projeto h3 {
     margin-bottom: 10px;
-    color: #6b21a8;
+    color: #a855f7;
 }
 
 .projeto p {
-    color: #666;
+    color: #bbbbbb;
 }
 
 
 /* CONTACTO */
 
 .contacto {
-    background-color: #ffffff;
+    background-color: #121212;
 }
 
 .contacto p {
     margin-bottom: 10px;
+    color: #cccccc;
 }
 
 .contacto strong {
-    color: #6b21a8;
+    color: #a855f7;
 }
 
 
@@ -231,21 +233,21 @@ section h2 {
 .botao-email {
     display: inline-block;
 
-    background-color: #111;
+    background-color: #a855f7;
     color: white;
 
     padding: 12px 20px;
 
     text-decoration: none;
     border-radius: 5px;
-    border: 2px solid #111;
+    border: 2px solid #a855f7;
 
     transition: 0.3s;
 }
 
 .botao-email:hover {
-    background-color: #6b21a8;
-    border-color: #6b21a8;
+    background-color: #9333ea;
+    border-color: #9333ea;
 }
 
 
@@ -256,11 +258,11 @@ footer {
 
     padding: 25px;
 
-    background-color: #111;
+    background-color: #000000;
     color: #ffffff;
 
     font-size: 14px;
-    border-top: 3px solid #6b21a8;
+    border-top: 3px solid #a855f7;
 }
 
 
